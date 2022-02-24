@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>チェックリスト</title>
+    <link rel="stylesheet" href="C:\Users\haruto yamaguchi\Documents\My code\css\チェックリスト\index1p.css">
+</head>
+<body>
+    <div class="content">
+        <div class="hedder_content">
+          <div class="row">
+            <p style="display: block;" id="js_hedder_content_check" class="hedder_p">チェックリスト</p>
+          </div>
+            <p style="display: none;" id="js_hedder_content_delete" class="hedder_p">削除モード<br><span style="font-size: 18px;">削除したい部分を選択してください</span></p>
+        </div>        
+        <div class="mein_content">
+            <div class="input_content">
+                <div class="row">
+                    <button id="js_make_button" class="make_button_beffor">チェックリストを作成</button>
+                </div>
+                <div class="makes" id="js_makes" style="display: none;">
+                    <div class="row">
+                        <label class="input_label" for="check_input">内容を書いてください :</label>
+                        <input size="40" name="check_input" id="js_make_input" class="check_input_beffor" type="text">
+                    </div>
+                    <span class="hedder_pp">(チェックリストは10個までです)</span>
+                    <div class="make_check_buttons row">
+                        <button id="js_make_ok" class="make_ok_beffor">追加</button>
+                        <button id="js_make_no" class="make_no_beffor">キャンセル</button>
+                    </div>
+                </div>            
+            </div>
+            <div id="js_check_content" class="check_content">
+                <table id="js_table" style="display: none;" class="table_beffor">
+                    <tr>
+                      <th class="th_number"></th>
+                      <th>やること</th>
+                      <th class="th_check">チェック</th>
+                    </tr>
+                    <tr style="visibility: hidden;" id="js_checks_1" class="check check_1">
+                      <td>1</td>
+                      <td id="js_check_1">undefind</td>                      
+                      <td><input class="checkbox" id="js_checkbox_1" type="checkbox"></td>
+                    </tr>
+                    <tr style="display: none;" id="js_checks_2" class="check check_2">
+                      <td>2</td>
+                      <td id="js_check_2">undefind</td>
+                      <td><input class="checkbox" id="js_checkbox_2" type="checkbox"></td>
+                    </tr>
+                    <tr style="display: none;" id="js_checks_3" class="check check_3">
+                      <td>3</td>
+                      <td id="js_check_3">undefind</td>
+                      <td><input class="checkbox" id="js_checkbox_3" type="checkbox"></td>
+                    </tr>
+                    <tr style="display: none;" id="js_checks_4" class="check check_4">
+                      <td>4</td>
+                      <td id="js_check_4">undefind</td>
+                      <td><input class="checkbox" id="js_checkbox_4" type="checkbox"></td>
+                    </tr>
+                    <tr style="display: none;" id="js_checks_5" class="check check_5">
+                      <td>5</td>
+                      <td id="js_check_5">undefind</td>
+                      <td><input class="checkbox" id="js_checkbox_5" type="checkbox"></td>
+                    </tr>
+                    <tr style="display: none;" id="js_checks_6" class="check check_6">
+                      <td>6</td>
+                      <td id="js_check_6">undefind</td>
+                      <td><input class="checkbox" id="js_checkbox_6" type="checkbox"></td>
+                    </tr>
+                    <tr style="display: none;" id="js_checks_7" class="check check_7">
+                      <td>7</td>
+                      <td id="js_check_7">undefind</td>
+                      <td><input class="checkbox" id="js_checkbox_7" type="checkbox"></td>
+                    </tr>
+                    <tr style="display: none;" id="js_checks_8" class="check check_8">
+                      <td>8</td>
+                      <td id="js_check_8">undefind</td>
+                      <td><input class="checkbox" id="js_checkbox_8" type="checkbox"></td>
+                    </tr>
+                    <tr style="display: none;" id="js_checks_9" class="check check_9">
+                      <td>9</td>
+                      <td id="js_check_9">undefind</td>
+                      <td><input class="checkbox" id="js_checkbox_9" type="checkbox"></td>
+                    </tr>
+                    <tr style="display: none;" id="js_checks_10" class="check check_01">
+                      <td>10</td>
+                      <td id="js_check_10">undefind</td>
+                      <td><input class="checkbox" id="js_checkbox_10" type="checkbox"></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="js_fotter_btns" class="fotter_buttons">
+                <button style="display: none;" class="make_delete_beffor delete_btn" id="js_delete_btn">リセット</button>
+                <button style="display: none;" class="make_delete_beffor delete_btn" id="js_delete_btn2">削除</button>
+                <button style="display: none;" class="make_cansel_beffor delete_btn" id="js_cansel_btn">キャンセル</button>
+            </div>
+        </div>
+    </div>    
+    <script src="C:\Users\haruto yamaguchi\Documents\My code\javascript\チェックリスト\index1p.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+body{
+    text-align: center;
+    font-family: "游ゴシック",sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+.check{
+    font-size: 30px;
+}
+label{
+    font-family: "游ゴシック",sans-serif;
+}
+.hedder_p{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.checkbox{
+    width:	35px;
+    height:	35px;
+    cursor: pointer;
+}
+.make_button_beffor{
+    background-color: rgb(0, 132, 255);
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 300;
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    border: 1px solid;
+    border-color: rgb(170, 170, 170);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 106px;
+}
+.make_button_affter{
+    background-color: rgb(0, 118, 228);
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 300;
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    border: 1px solid;
+    border-color: rgb(170, 170, 170);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 106px;
+}
+.make_button_push{
+    background-color: rgb(0, 73, 141);
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 300;
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    border: 1px solid;
+    border-color: rgb(170, 170, 170);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 106px;
+}
+.check_input_beffor{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid;
+    border-color: rgb(146, 146, 146);
+    border-radius: 0px;
+    font-family: "游ゴシック",sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 210px;
+}
+.check_input_affter{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid;
+    border-color: rgb(97, 97, 97);
+    border-radius: 0px;
+    font-family: "游ゴシック",sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 210px;
+}
+.input_label{
+    font-size: 20px;
+    font-weight: 550;
+}
+.make_check_buttons{
+    margin: 10px;
+}
+.make_ok_beffor{
+    margin-right: 2px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(0, 132, 255);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    cursor: pointer;
+}
+.make_no_beffor{
+    margin-left: 2px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(252, 76, 76);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    cursor: pointer;
+}
+.make_ok_affter{
+    margin-right: 2px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(0, 118, 228);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    cursor: pointer;
+}
+.make_no_affter{
+    margin-left: 2px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(214, 65, 65);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    cursor: pointer;
+}
+.table_beffor{
+    margin: auto;
+    width: 800px;
+    border-collapse: collapse;
+}
+.table_affter{
+    margin: auto;
+    width: 800px;
+    border-collapse: collapse;
+}
+th,td{
+    border:solid 1px rgb(46, 46, 46);
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+}
+.th_check{
+    width: 80px;
+}
+.th_number{
+    width: 80px;
+}
+.make_delete_affter{
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(214, 65, 65);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    cursor: pointer;
+}
+.make_delete_beffor{
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(252, 76, 76);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    cursor: pointer;
+}
+.make_cansel_beffor{
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(0, 132, 255);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    cursor: pointer;
+}
+.make_cansel_affter{
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(0, 118, 228);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    cursor: pointer;
+}
+.check_content_affter{
+    margin-top: 106px;
+}
+.row{
+    grid-template-rows: 100px;
+}
+.makes{
+    text-align: center;
+}
+.decision_btn{
+    margin-bottom: 4px;
+    margin-left: 15px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: rgb(0, 132, 255);
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    color: white;
+    font-family: "游ゴシック",sans-serif;
+    cursor: pointer;
+}
+.colorcelect{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.selection{
+    font-family: "游ゴシック",sans-serif;
+}
+.black_white{
+    background-color: black;
+    color: white;
+}
+.gray{
+    background-color: rgb(226, 226, 226);
+}
